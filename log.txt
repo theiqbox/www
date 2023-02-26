@@ -1,0 +1,300 @@
+execve("/usr/bin/git", ["git", "push", "origin", "master"], 0x7fffe00022d8 /* 20 vars */) = 0
+brk(NULL)                               = 0x7ffff8104000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7fffff7adf50) = -1 EINVAL (Invalid argument)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=36873, ...}) = 0
+mmap(NULL, 36873, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ffe101f6000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=584392, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ffe10230000
+mmap(NULL, 586536, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ffe10160000
+mmap(0x7ffe10162000, 409600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7ffe10162000
+mmap(0x7ffe101c6000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x66000) = 0x7ffe101c6000
+mmap(0x7ffe101ee000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8d000) = 0x7ffe101ee000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=108936, ...}) = 0
+mmap(NULL, 110776, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ffe10140000
+mprotect(0x7ffe10142000, 98304, PROT_NONE) = 0
+mmap(0x7ffe10142000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7ffe10142000
+mmap(0x7ffe10153000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13000) = 0x7ffe10153000
+mmap(0x7ffe1015a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7ffe1015a000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220q\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\360\2300%\360\340\363'\246\332u/\364\377\246u"..., 68, 824) = 68
+fstat(3, {st_mode=S_IFREG|0755, st_size=157224, ...}) = 0
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\360\2300%\360\340\363'\246\332u/\364\377\246u"..., 68, 824) = 68
+mmap(NULL, 140408, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ffe1011d000
+mmap(0x7ffe10123000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7ffe10123000
+mmap(0x7ffe10134000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7ffe10134000
+mmap(0x7ffe1013a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7ffe1013a000
+mmap(0x7ffe1013c000, 13432, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ffe1013c000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360A\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\237\333t\347\262\27\320l\223\27*\202C\370T\177"..., 68, 880) = 68
+fstat(3, {st_mode=S_IFREG|0755, st_size=2029560, ...}) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\237\333t\347\262\27\320l\223\27*\202C\370T\177"..., 68, 880) = 68
+mmap(NULL, 2037344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ffe0ff20000
+mmap(0x7ffe0ff42000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x7ffe0ff42000
+mmap(0x7ffe100ba000, 319488, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19a000) = 0x7ffe100ba000
+mmap(0x7ffe10108000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7ffe10108000
+mmap(0x7ffe1010e000, 13920, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ffe1010e000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ffe101f0000
+arch_prctl(ARCH_SET_FS, 0x7ffe101f0b80) = 0
+mprotect(0x7ffe10108000, 16384, PROT_READ) = 0
+mprotect(0x7ffe1013a000, 4096, PROT_READ) = 0
+mprotect(0x7ffe1015a000, 4096, PROT_READ) = 0
+mprotect(0x7ffe101ee000, 4096, PROT_READ) = 0
+mprotect(0x7ffe10516000, 16384, PROT_READ) = 0
+mprotect(0x7ffe1022d000, 4096, PROT_READ) = 0
+munmap(0x7ffe101f6000, 36873)           = 0
+set_tid_address(0x7ffe101f0e50)         = 1102
+set_robust_list(0x7ffe101f0e60, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7ffe10123bf0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7ffe101313c0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7ffe10123c90, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7ffe101313c0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=8192*1024}) = 0
+gettimeofday({tv_sec=1676197120, tv_usec=27324}, NULL) = 0
+clock_gettime(CLOCK_MONOTONIC, {tv_sec=146015, tv_nsec=480156100}) = 0
+openat(AT_FDCWD, "/dev/null", O_RDWR)   = 3
+close(3)                                = 0
+rt_sigprocmask(SIG_UNBLOCK, [PIPE], NULL, 8) = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_DFL, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7ffe0ff630c0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fdad27030c0}, 8) = 0
+brk(NULL)                               = 0x7ffff8104000
+brk(0x7ffff8125000)                     = 0x7ffff8125000
+stat("/usr/share/locale", {st_mode=S_IFDIR|0755, st_size=512, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3035952, ...}) = 0
+mmap(NULL, 3035952, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ffe0fc3a000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2996, ...}) = 0
+read(3, "# Locale name alias data base.\n#"..., 512) = 512
+read(3, "See the\n# GNU General Public Lic"..., 512) = 512
+read(3, "und for the time being for\n# bac"..., 512) = 512
+read(3, "These lines were removed\n# becau"..., 512) = 512
+read(3, "-8859-1\ngalego\t\tgl_ES.ISO-8859-1"..., 512) = 512
+read(3, "NO.ISO-8859-1 nb_NO.ISO-8859-1\nn"..., 512) = 436
+read(3, "", 512)                        = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=512, ...}) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=48, ...}) = 0
+mmap(NULL, 48, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ffe10236000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=27002, ...}) = 0
+mmap(NULL, 27002, PROT_READ, MAP_SHARED, 3, 0) = 0x7ffe101f9000
+close(3)                                = 0
+futex(0x7ffe1010d954, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_TIME", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3360, ...}) = 0
+mmap(NULL, 3360, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ffe10235000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=201272, ...}) = 0
+mmap(NULL, 201272, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ffe0fc08000
+close(3)                                = 0
+access("/etc/gitconfig", R_OK)          = -1 ENOENT (No such file or directory)
+access("/home/csr100/.config/git/config", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/csr100/.gitconfig", R_OK) = 0
+openat(AT_FDCWD, "/home/csr100/.gitconfig", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=198, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=198, ...}) = 0
+read(3, "# This is Git's per-user configu"..., 512) = 198
+read(3, "", 512)                        = 0
+close(3)                                = 0
+getcwd("/mnt/c/iqbox/git/www", 129)     = 21
+stat("/mnt/c/iqbox/git/www", {st_mode=S_IFDIR|0777, st_size=512, ...}) = 0
+stat("/mnt/c/iqbox/git/www/.git", {st_mode=S_IFDIR|0777, st_size=512, ...}) = 0
+lstat("/mnt/c/iqbox/git/www/.git/HEAD", {st_mode=S_IFREG|0777, st_size=23, ...}) = 0
+openat(AT_FDCWD, "/mnt/c/iqbox/git/www/.git/HEAD", O_RDONLY) = 3
+read(3, "ref: refs/heads/master\n", 255) = 23
+read(3, "", 232)                        = 0
+close(3)                                = 0
+lstat("/mnt/c/iqbox/git/www/.git/commondir", 0x7fffff7ad8e0) = -1 ENOENT (No such file or directory)
+access("/mnt/c/iqbox/git/www/.git/objects", X_OK) = 0
+access("/mnt/c/iqbox/git/www/.git/refs", X_OK) = 0
+lstat(".git/commondir", 0x7fffff7ad9f0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, ".git/config", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0777, st_size=328, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0777, st_size=328, ...}) = 0
+read(3, "[core]\n\trepositoryformatversion "..., 512) = 328
+read(3, "", 512)                        = 0
+close(3)                                = 0
+getcwd("/mnt/c/iqbox/git/www", 129)     = 21
+stat(".git", {st_mode=S_IFDIR|0777, st_size=512, ...}) = 0
+lstat(".git/commondir", 0x7fffff7ad990) = -1 ENOENT (No such file or directory)
+access("/etc/gitconfig", R_OK)          = -1 ENOENT (No such file or directory)
+access("/home/csr100/.config/git/config", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/csr100/.gitconfig", R_OK) = 0
+openat(AT_FDCWD, "/home/csr100/.gitconfig", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=198, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=198, ...}) = 0
+read(3, "# This is Git's per-user configu"..., 512) = 198
+read(3, "", 512)                        = 0
+close(3)                                = 0
+access(".git/config", R_OK)             = 0
+openat(AT_FDCWD, ".git/config", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0777, st_size=328, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0777, st_size=328, ...}) = 0
+read(3, "[core]\n\trepositoryformatversion "..., 512) = 328
+read(3, "", 512)                        = 0
+close(3)                                = 0
+access("/etc/gitconfig", R_OK)          = -1 ENOENT (No such file or directory)
+access("/home/csr100/.config/git/config", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/csr100/.gitconfig", R_OK) = 0
+openat(AT_FDCWD, "/home/csr100/.gitconfig", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=198, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=198, ...}) = 0
+read(3, "# This is Git's per-user configu"..., 512) = 198
+read(3, "", 512)                        = 0
+close(3)                                = 0
+access(".git/config", R_OK)             = 0
+openat(AT_FDCWD, ".git/config", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0777, st_size=328, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0777, st_size=328, ...}) = 0
+read(3, "[core]\n\trepositoryformatversion "..., 512) = 328
+read(3, "", 512)                        = 0
+close(3)                                = 0
+lstat(".git/commondir", 0x7fffff7ad0d0) = -1 ENOENT (No such file or directory)
+lstat(".git/HEAD", {st_mode=S_IFREG|0777, st_size=23, ...}) = 0
+openat(AT_FDCWD, ".git/HEAD", O_RDONLY) = 3
+read(3, "ref: refs/heads/master\n", 256) = 23
+read(3, "", 233)                        = 0
+close(3)                                = 0
+lstat(".git/refs/heads/master", {st_mode=S_IFREG|0777, st_size=41, ...}) = 0
+openat(AT_FDCWD, ".git/refs/heads/master", O_RDONLY) = 3
+read(3, "2c624d46c5796d88089508cc8bff1182"..., 256) = 41
+read(3, "", 215)                        = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".git/refs/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0777, st_size=512, ...}) = 0
+getdents64(3, /* 5 entries */, 32768)   = 136
+stat(".git/refs/heads", {st_mode=S_IFDIR|0777, st_size=512, ...}) = 0
+stat(".git/refs/remotes", {st_mode=S_IFDIR|0777, st_size=512, ...}) = 0
+stat(".git/refs/tags", {st_mode=S_IFDIR|0777, st_size=512, ...}) = 0
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".git/refs/bisect/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, ".git/refs/heads/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0777, st_size=512, ...}) = 0
+getdents64(3, /* 3 entries */, 32768)   = 80
+stat(".git/refs/heads/master", {st_mode=S_IFREG|0777, st_size=41, ...}) = 0
+lstat(".git/refs/heads/master", {st_mode=S_IFREG|0777, st_size=41, ...}) = 0
+openat(AT_FDCWD, ".git/refs/heads/master", O_RDONLY) = 4
+read(4, "2c624d46c5796d88089508cc8bff1182"..., 256) = 41
+read(4, "", 215)                        = 0
+close(4)                                = 0
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".git/refs/remotes/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0777, st_size=512, ...}) = 0
+getdents64(3, /* 3 entries */, 32768)   = 80
+stat(".git/refs/remotes/origin", {st_mode=S_IFDIR|0777, st_size=512, ...}) = 0
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".git/refs/remotes/origin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0777, st_size=512, ...}) = 0
+getdents64(3, /* 4 entries */, 32768)   = 104
+stat(".git/refs/remotes/origin/HEAD", {st_mode=S_IFREG|0777, st_size=32, ...}) = 0
+lstat(".git/refs/remotes/origin/HEAD", {st_mode=S_IFREG|0777, st_size=32, ...}) = 0
+openat(AT_FDCWD, ".git/refs/remotes/origin/HEAD", O_RDONLY) = 4
+read(4, "ref: refs/remotes/origin/master\n", 256) = 32
+read(4, "", 224)                        = 0
+close(4)                                = 0
+lstat(".git/refs/remotes/origin/master", {st_mode=S_IFREG|0777, st_size=41, ...}) = 0
+openat(AT_FDCWD, ".git/refs/remotes/origin/master", O_RDONLY) = 4
+read(4, "a5a4cf4e577f7f183d63e299e2ab4b5f"..., 256) = 41
+read(4, "", 215)                        = 0
+close(4)                                = 0
+stat(".git/refs/remotes/origin/master", {st_mode=S_IFREG|0777, st_size=41, ...}) = 0
+lstat(".git/refs/remotes/origin/master", {st_mode=S_IFREG|0777, st_size=41, ...}) = 0
+openat(AT_FDCWD, ".git/refs/remotes/origin/master", O_RDONLY) = 4
+read(4, "a5a4cf4e577f7f183d63e299e2ab4b5f"..., 256) = 41
+read(4, "", 215)                        = 0
+close(4)                                = 0
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".git/refs/tags/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0777, st_size=512, ...}) = 0
+getdents64(3, /* 2 entries */, 32768)   = 48
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".git/refs/worktree/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, ".git/refs/rewritten/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, ".git/packed-refs", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0777, st_size=114, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0777, st_size=114, ...}) = 0
+read(3, "# pack-refs with: peeled fully-p"..., 114) = 114
+close(3)                                = 0
+openat(AT_FDCWD, ".git/objects/info/alternates", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, ".git/objects/pack", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0777, st_size=512, ...}) = 0
+getdents64(3, /* 4 entries */, 32768)   = 192
+access(".git/objects/pack/pack-550809806575b23466ee110ccac24c3b3f003daa.keep", F_OK) = -1 ENOENT (No such file or directory)
+access(".git/objects/pack/pack-550809806575b23466ee110ccac24c3b3f003daa.promisor", F_OK) = -1 ENOENT (No such file or directory)
+stat(".git/objects/pack/pack-550809806575b23466ee110ccac24c3b3f003daa.pack", {st_mode=S_IFREG|0555, st_size=2724056, ...}) = 0
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".git/objects/pack/pack-550809806575b23466ee110ccac24c3b3f003daa.idx", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0555, st_size=3508, ...}) = 0
+mmap(NULL, 3508, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ffe10234000
+close(3)                                = 0
+lstat(".git/objects/2c/624d46c5796d88089508cc8bff118284ca63d2", {st_mode=S_IFREG|0555, st_size=159, ...}) = 0
+lstat(".git/objects/a5/a4cf4e577f7f183d63e299e2ab4b5f2b6c58d4", {st_mode=S_IFREG|0555, st_size=559, ...}) = 0
+lstat(".git/objects/a5/a4cf4e577f7f183d63e299e2ab4b5f2b6c58d4", {st_mode=S_IFREG|0555, st_size=559, ...}) = 0
+ioctl(2, TCGETS, 0x7fffff7ad1e0)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(2, TCGETS, 0x7fffff7ad260)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(2, TCGETS, 0x7fffff7ad0b0)        = -1 ENOTTY (Inappropriate ioctl for device)
+stat(".git/packed-refs", {st_mode=S_IFREG|0777, st_size=114, ...}) = 0
+lstat(".git/objects/2c/624d46c5796d88089508cc8bff118284ca63d2", {st_mode=S_IFREG|0555, st_size=159, ...}) = 0
+lstat(".git/objects/a5/a4cf4e577f7f183d63e299e2ab4b5f2b6c58d4", {st_mode=S_IFREG|0555, st_size=559, ...}) = 0
+lstat(".git/objects/a5/a4cf4e577f7f183d63e299e2ab4b5f2b6c58d4", {st_mode=S_IFREG|0555, st_size=559, ...}) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[CHLD], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7ffe0ff630c0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fb7113d30c0}, 8) = 0
+pipe([3, 4])                            = 0
+pipe([5, 6])                            = 0
+stat("/usr/lib/git-core/ssh", 0x7fffff7accb0) = -1 ENOENT (No such file or directory)
+stat("/home/csr100/.local/bin/ssh", 0x7fffff7accb0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/sbin/ssh", 0x7fffff7accb0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/ssh", 0x7fffff7accb0) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/ssh", 0x7fffff7accb0)   = -1 ENOENT (No such file or directory)
+stat("/usr/bin/ssh", {st_mode=S_IFREG|0755, st_size=789448, ...}) = 0
+pipe([7, 8])                            = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ffe101f0e50) = 1103
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+close(8)                                = 0
+read(7, "", 8)                          = 0
+close(7)                                = 0
+close(3)                                = 0
+close(6)                                = 0
+read(5, ERROR: Permission to theiqbox/www.git denied to c0D3M.
+"", 4)                          = 0
+openat(AT_FDCWD, "/usr/share/locale/C.UTF-8/LC_MESSAGES/git.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/C.utf8/LC_MESSAGES/git.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1103, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+openat(AT_FDCWD, "/usr/share/locale/C/LC_MESSAGES/git.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/C.UTF-8/LC_MESSAGES/git.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/C.utf8/LC_MESSAGES/git.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/C/LC_MESSAGES/git.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(2, "fatal: Could not read from remot"..., 126fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+) = 126
+exit_group(128)                         = ?
++++ exited with 128 +++
