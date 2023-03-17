@@ -59,3 +59,14 @@ li span {
         font-size: calc(3.375rem * var(--smaller));
     }
 }
+
+
+/* For mobile phones: */
+[class="loader"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .loader {width: 25%;}
+  }
