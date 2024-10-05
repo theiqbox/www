@@ -189,6 +189,43 @@
       
   </section>
   <script src="//unpkg.com/alpinejs" defer></script>
+  <script>
+                var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?16838';
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = url;
+                var options = {
+                "enabled":true,
+                "chatButtonSetting":{
+                    "backgroundColor":"#21ba7a",
+                    "ctaText":"Chat with us",
+                    "borderRadius":"25",
+                    "marginLeft": "0",
+                    "marginRight": "20",
+                    "marginBottom": "20",
+                    "ctaIconWATI":false,
+                    "position":"absolute"
+                },
+                "brandSetting":{
+                    "brandName":"IQ Box",
+                    "brandSubTitle":"Mind Bending Fun for All !",
+                    "brandImg":"https://iqbox.in/images/favicon.ico",
+                    "welcomeText":"Hi there!\nHow can I help you?",
+                    "messageText":"Hello, %0A I have a question about IQ Box Puzzles",
+                    "backgroundColor":"#ffffff",
+                    "ctaText":"Chat with us",
+                    "borderRadius":"25",
+                    "autoShow":false,
+                    "phoneNumber":"916363339282"
+                }
+                };
+                s.onload = function() {
+                    CreateWhatsappChatWidget(options);
+                };
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            </script>
   <script type="module">
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
