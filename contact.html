@@ -8,6 +8,30 @@
   <link rel="shortcut icon" href="images/favicon.ico" />
   <link rel="stylesheet" href="css/style5.css" />
   <link rel="stylesheet" href="css/style1.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .icon-grid a {
+      text-decoration: none;
+      color: inherit;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .icon-grid a i {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+  </style>
   <style>
   .fa {  
   padding: 20px;  
@@ -139,12 +163,35 @@ text-align: center;
   </section>
   -->
   <section class="absolute w-full px-8 text-gray-700 bg-white body-font" data-tails-scripts="//unpkg.com/alpinejs">
-	<div class="social-media-icons container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
-	<a href="https://wa.me/916363339282" class="fa fa-whatsapp"></a>  
-	<a href="https://www.instagram.com/iqbox.in" class="fa fa-instagram "></a>
-	<a href="https://www.facebook.com/iqbox.in" class="fa fa-facebook"></a>  
-	<a href="https://www.youtube.com/@iqboxin" class="fa fa-youtube"></a>  
-	</div>
+	<div class="icon-grid">
+    <!-- Row 1 -->
+    <a href="mailto:example@email.com" target="_blank">
+      <i class="fas fa-envelope"></i>
+      <span>Email</span>
+    </a>
+    <a href="tel:+123456789" target="_blank">
+      <i class="fas fa-phone"></i>
+      <span>Phone</span>
+    </a>
+    <a href="https://www.instagram.com/yourprofile" target="_blank">
+      <i class="fab fa-instagram"></i>
+      <span>Instagram</span>
+    </a>
+
+    <!-- Row 2 -->
+    <a href="https://wa.me/yourphonenumber" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+      <span>WhatsApp</span>
+    </a>
+    <a href="https://www.facebook.com/yourprofile" target="_blank">
+      <i class="fab fa-facebook"></i>
+      <span>Facebook</span>
+    </a>
+    <a href="https://www.youtube.com/yourchannel" target="_blank">
+      <i class="fab fa-youtube"></i>
+      <span>YouTube</span>
+    </a>
+  </div>
   </section>
 
   <script src="//unpkg.com/alpinejs" defer></script>
