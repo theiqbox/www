@@ -32,9 +32,7 @@
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
-        window.location.replace("./files/iqbox.vcf");
-		//add_header Content-Type "text/vcard";
-		//add_header Content-Disposition "attachment; filename=contact.vcf";
+        window.location.replace("intent://files/contact.vcf#Intent;scheme=file;action=android.intent.action.VIEW;type=text/vcard;end");
     </script>
 </body>
 
